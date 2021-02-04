@@ -38,9 +38,9 @@ void draw() {
     glLoadIdentity();
 
     glBegin(GL_TRIANGLES);
-        glColor3f(1, 0, 0); glVertex2f(-7,-7 ); /* Bottom      */
-        glColor3f(0, 1, 0); glVertex2f( 0, 7 ); /* Upper Left  */
-        glColor3f(0, 0, 1); glVertex2f( 7,-7 ); /* Upper Right */
+        glColor3f(1, 0, 0); glVertex2f(-7,-7 ); 
+        glColor3f(0, 1, 0); glVertex2f( 0, 7 ); 
+        glColor3f(0, 0, 1); glVertex2f( 7,-7 ); 
     glEnd();
 
     glFlush(); 

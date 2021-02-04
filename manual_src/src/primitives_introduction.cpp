@@ -92,7 +92,7 @@ void draw() {
     // GL_POLYGON           = polígono CONVEXO
 
     glBegin(GL_POLYGON);
-        draw_circulo(8, 25);
+        draw_circulo(4, 10);
     glEnd();
 
     //glFlush(); // DESENHA UM BUFFER
